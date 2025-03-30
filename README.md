@@ -26,3 +26,11 @@ to configure it. An example can be found [here](https://github.com/mathisdt/upda
 Having configured it, you should include it in your start script - either start it before
 your application (so it can update your application before it is used) or after your application
 has shut down (so the user can use the updated version next time).
+
+# Build using Earthly
+
+The CI build of this project uses [Earthly](https://docs.earthly.dev/), which in turn uses
+container virtualization (e.g. Docker or Podman). You can also run the build locally (if you
+have Earthly as well as an OCI compatible container engine installed) by executing
+`earthly +build`. This will create a container with everything needed for the build,
+create the package inside it and then copy the results to the directory `target` for you.
