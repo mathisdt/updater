@@ -9,9 +9,10 @@ any JRE 17 or later while not having to bother with complicated classpaths or ma
 
 ## Using it for your project
 
-You can get the JAR from the [latest release](https://github.com/mathisdt/updater/releases/latest)
+You can get the JAR from the [latest release](https://codeberg.org/mathisdt/updater/releases/latest)
 and put it into your project's distribution, but you have to add a file named `updater.properties`
-to configure it. An example can be found [here](https://github.com/mathisdt/updater/blob/master/src/main/resources/updater.properties).
+to configure it. An example can be found
+[here](https://codeberg.org/mathisdt/updater/src/branch/master/src/main/resources/updater.properties).
 
 * `latest_release_json_url`: the URL where the latest release's information can be found
   (at the moment, only Github's JSON format is supported)
