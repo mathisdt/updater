@@ -1,5 +1,3 @@
-![license](https://img.shields.io/github/license/mathisdt/updater.svg?style=flat) [![last released](https://img.shields.io/github/release-date/mathisdt/updater.svg?label=last%20released&style=flat)](https://github.com/mathisdt/updater/releases)
-
 # Updater
 
 This is a utility for Java projects which is only interesting for developers, not for end users.
@@ -27,10 +25,7 @@ Having configured it, you should include it in your start script - either start 
 your application (so it can update your application before it is used) or after your application
 has shut down (so the user can use the updated version next time).
 
-# Build using Earthly
+## License
 
-The CI build of this project uses [Earthly](https://docs.earthly.dev/), which in turn uses
-container virtualization (e.g. Docker or Podman). You can also run the build locally (if you
-have Earthly as well as an OCI compatible container engine installed) by executing
-`earthly +build`. This will create a container with everything needed for the build,
-create the package inside it and then copy the results to the directory `target` for you.
+This project is licensed under GPL v3. If you submit or contribute changes, these are automatically licensed
+under GPL v3 as well. If you don't want that, please don't submit the contribution (e.g. pull request)!
