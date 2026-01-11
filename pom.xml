@@ -24,9 +24,7 @@
 	</licenses>
 
 	<scm>
-		<url>https://github.com/mathisdt/updater</url>
-		<connection>scm:git:ssh:git@github.com:mathisdt/updater.git</connection>
-		<developerConnection>scm:git:ssh:git@github.com:mathisdt/updater.git</developerConnection>
+		<url>https://codeberg.org/mathisdt/updater</url>
 	</scm>
 
 	<organization>
